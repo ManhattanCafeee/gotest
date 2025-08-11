@@ -1,0 +1,357 @@
+/* do not engage*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.app {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.reading {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #3d3d3d;
+}
+
+/* do not engage*/
+
+main {
+    height: 93%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iron-select {
+    height: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #0f0f0f;
+    overflow: auto;
+    align-items: flex-start;
+
+}
+
+.iron-select-container {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #0f0f0f;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.iron-select-container p:hover {
+    background-color: white;
+    color: black;
+}
+
+.iron-select-container p {
+    border-radius: 20px;
+    border: white 1px solid;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: #3d3d3d;
+}
+
+main .topicI,
+.topicII {
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.maincontentcontainer {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #3d3d3d;
+    overflow: auto;
+}
+
+.maincontentcontainer .medias {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 50%;
+
+}
+
+.maincontentcontainer .medias .li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: auto;
+}
+
+.maincontentcontainer a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-right: 200px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.maincontentcontainer img {
+    width: 400px;
+    height: 200px;
+
+}
+
+.shortscontainer {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+}
+
+.shortscontainer .shorts {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+}
+
+.shortscontainer .shorts .li {
+    height: auto;
+}
+
+.shortscontainer .shorts img {
+    width: 300px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+/* engage is the last resort*/
+header {
+    display: flex;
+    flex-direction: row;
+    height: 4%;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    z-index: 3000;
+    background-color: #0f0f0f;
+    color: aliceblue;
+}
+
+header .button1 {
+    background-color: #0f0f0f;
+    border: none;
+    cursor: pointer;
+    border: none;
+}
+
+header .button1:hover {
+    background-color: #3d3d3d;
+    border: none;
+}
+
+.headbar {
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    vertical-align: auto;
+}
+
+.headbar .search {
+    display: flex;
+    flex: 3;
+    width: 40%;
+    height: 30%;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: 20%;
+
+}
+
+.headbar .searchbar {
+    border-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #3d3d3d;
+    border: none;
+    padding-top: 2%;
+
+}
+
+.mic {
+    padding-left: 8%;
+    padding-top: 0.25%;
+}
+
+.headbar .searchbar svg {
+    height: 10%;
+    width: auto;
+    cursor: pointer;
+}
+
+.headbar .login {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: bottom;
+    border: white solid 1px;
+    border-radius: 30px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.headbar .login p {
+    margin: 0;
+}
+
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    height: 100%;
+    background-color: #0f0f0f;
+    color: aliceblue;
+    transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    align-items: flex-start;
+}
+
+.sidebar-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 6%;
+}
+
+.sidebar-items:hover {
+    background-color: #3d3d3d;
+}
+
+.sidebar-items svg {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar-items p {
+    padding-left: 6%;
+    width: 100%;
+    margin: 0;
+}
+
+.sidebar-subtitle {
+    width: 94%;
+    border-top: white solid 1px;
+    margin-top: 10%;
+    font-size: 20px;
+    padding-left: 6%;
+}
+
+.copyright {
+    font-size: 10px;
+    padding-left: 6%;
+}
+
+
+
+
+.sidebar .subsyoutubers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-top: white solid 1px;
+    margin-top: 10%;
+}
+
+/*avarter down here*/
+.youtuberscontainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.youtuberscontainer .youtubers {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 9%;
+
+}
+
+
+.youtuberscontainer .youtubers img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-right: 3%;
+}
+
+.youtuberscontainer .youtubers li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+    width: 100%;
+
+}
+
+
+.youtuberscontainer .youtubers li a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 4%;
+    padding-left: 3.75%;
+    width: 100%;
+}
+
+/*avarter end here*/
+
+
+.fold {
+    width: 0;
+    opacity: 0;
+    transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+/* engage is the last resort*/
