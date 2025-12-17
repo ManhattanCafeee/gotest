@@ -1,0 +1,133 @@
+{
+  "chat.commandCenter.enabled": false,
+  "http.proxy": "http://127.0.0.1:20172",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "auto",
+  "window.zoomLevel": 1,
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.location": "hidden",
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "none",
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.tabSizing": "fixed",
+  "files.exclude": {
+    "**/.nuxt": true,
+    "**/node_modules": true
+  },
+  "terminal.integrated.fontFamily": "Monaco Nerd Font", // ? Font
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.tabs.defaultIcon": "new-file",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.smoothScrolling": true,
+  "editor.accessibilitySupport": "on",
+  "editor.fontFamily": "Monaco Nerd Font Mono", // ? Font
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.7,
+  "editor.inlayHints.enabled": "off",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.rename.enablePreview": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // Java
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.configuration.maven.globalSettings": "/home/natholdallas/.local/share/m2/settings.xml",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/liberica-jdk-17-full"
+    },
+    {
+      "name": "JavaSE-21",
+      "path": "/usr/lib/jvm/liberica-jdk-21-full"
+    }
+  ],
+  // Lua
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.workspace.preloadFileSize": 500000,
+  "Lua.workspace.maxPreload": 100000,
+  "Lua.diagnostics.libraryFiles": "Disable",
+  "Lua.workspace.library": [],
+  // Vue
+  "vue.server.hybridMode": true,
+  // Typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // XML
+  "xml.format.grammarAwareFormatting": false,
+  "xml.server.workDir": "~/.cache/lemminx",
+  // CSS
+  "css.lint.unknownAtRules": "ignore",
+  // Apc
+  // "apc.font.family": "Monaco Nerd Font",
+  // "apc.imports": [
+  //   "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  // ],
+  // Animation
+  // "animations.Enabled": true,
+  // "animations.Smooth-Mode": true,
+  // "animations.CursorAnimation": true,
+  // "animations.Tabs": "Flip",
+  // "animations.Active": "Scale",
+  // "animations.Scrolling": "Scale",
+  // "animations.Command-Palette": "Fade",
+  // "animations.Focus-Dimming-Mode": "None",
+  // "animations.Install-Method": "Apc Customize UI++",
+  // Other
+  "projectManager.sortList": "Saved",
+  "symbols.hidesExplorerArrows": true,
+  "codesnap.shutterAction": "copy",
+  "errorLens.messageBackgroundMode": "message",
+  // Formatter
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  }
+}

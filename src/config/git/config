@@ -1,0 +1,13 @@
+[user]
+	name = JackTing
+	email = manhattancaf33@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
+[pull]
+	rebase = false
+[http]
+	proxy = http://127.0.0.1:20172
+[https]
+	proxy = http://127.0.0.1:20172
